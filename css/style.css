@@ -9,6 +9,7 @@
 nav ul a,
 nav .brand-logo {
   color: #00897b;
+  /* background-image: url('../logo.jpg'); */
 }
 
 p {
