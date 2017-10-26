@@ -5,6 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
+ .card .card-title
+{
+  font-size: 18px !important;
+}
+
 
 .transparentBG {
   background-color: rgba(0,0,0,0);
