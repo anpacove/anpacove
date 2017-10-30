@@ -95,8 +95,3 @@ padding-left: 0;
   .pin-bottom {
     position: relative;
   }
-
-  // Class for when element is pinned
-  .pinned {
-    position: fixed !important;
-  }
