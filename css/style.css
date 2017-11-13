@@ -14,7 +14,17 @@
 .transparentBG {
   background-color: rgba(0,0,0,0);
 }
-
+//Style for services description
+.sectionHeading {
+    font-family: "DIN Medium"!important;
+    color: #fff;
+    font-size: 3em;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding: 0 10px 20px;
+}
 nav ul a,
 nav .brand-logo {
   color: #ffffff;
@@ -95,3 +105,4 @@ padding-left: 0;
   .pin-bottom {
     position: relative;
   }
+
