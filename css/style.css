@@ -57,6 +57,10 @@ p {
     border-radius: 50%;
     padding: 10px;
 }
+.parallax-container .service-item{
+  margin: 50px auto 0;
+    width: 750px;
+}
 .parallax-container .service-item .service-item-text{
     display: inline-block;
     vertical-align: top;
