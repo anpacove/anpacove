@@ -108,27 +108,17 @@ footer.page-footer {
 
 html, body, .block {
 height: 100%;
+font-family: 'PT Sans', sans-serif;
 }
 nav ul li a:hover, nav ul li a.active {
 background-color: rgba(0,0,0,.1);
 }
-footer {
-padding-left: 0;
-}
-
 
 .menu-bg{
   background: linear-gradient(90deg,#43a999,#62c899);
 }
 
 
-<<<<<<< HEAD
-  // Class for when element is below threshold
-  .pin-bottom {
-    position: relative;
-  }
-
-=======
 .pin-top {
   position: relative;
 }
@@ -137,4 +127,8 @@ padding-left: 0;
 .pin-bottom {
   position: relative;
 }
->>>>>>> ddfb97dd4d92422be959c4bff71e688d2b18e8d1
+
+.title{
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 80px;  
+}

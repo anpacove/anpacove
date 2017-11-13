@@ -1,11 +1,11 @@
-(function($){
-  $(function(){
+(function ($) {
+  $(function () {
 
     $('.parallax').parallax();
 
     // Pushpin Demo Init
     if ($('.pushpin-demo-nav').length) {
-      $('.pushpin-demo-nav').each(function() {
+      $('.pushpin-demo-nav').each(function () {
         var $this = $(this);
         var $target = $('#' + $(this).attr('data-target'));
         $this.pushpin({
@@ -15,5 +15,15 @@
       });
     }
 
-  }); // end of document ready
+  }); 
+
+  
+  var options = [
+    {
+      selector: '#Precios', offset: 50, callback: function (el) {
+        $('.tap-target').tapTarget('open');
+      }
+    }
+  ];
+  Materialize.scrollFire(options);
 })(jQuery); // end of jQuery name space
