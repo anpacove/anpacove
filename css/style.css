@@ -1,15 +1,7 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
  .card .card-title
 {
   font-size: 18px !important;
 }
-
 
 .transparentBG {
   background-color: rgba(0,0,0,0);
@@ -96,13 +88,20 @@ padding-left: 0;
   background: linear-gradient(90deg,#43a999,#62c899);
 }
 
-  // Class for when element is above threshold
-  .pin-top {
-    position: relative;
-  }
 
+<<<<<<< HEAD
   // Class for when element is below threshold
   .pin-bottom {
     position: relative;
   }
 
+=======
+.pin-top {
+  position: relative;
+}
+
+
+.pin-bottom {
+  position: relative;
+}
+>>>>>>> ddfb97dd4d92422be959c4bff71e688d2b18e8d1
