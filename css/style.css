@@ -69,3 +69,18 @@ nav ul li a.active {
 .subtitle{
   color: #99ecd0;
 }
+
+.icon-circle{
+  right: auto !important;
+  display: inline-block !important;
+  vertical-align: top !important;
+  margin-top: 15px !important;
+  text-align: center !important;
+  line-height: 110px !important;
+  width: 110px !important;
+  height: 110px !important;
+  border: 2px solid white !important;
+  border-radius: 50% !important;
+  padding: 10px !important;
+  
+}
