@@ -18,7 +18,7 @@ p {
 .parallax-container {
   min-height: 500px;
   line-height: 0;
-  color: #4ebaaa;
+  color: #0E91A1;
 }
 
 .parallax-container .section {
@@ -53,7 +53,8 @@ nav ul li a.active {
   background-color: rgba(0, 0, 0, .1);
 }
 .menu-bg {
-  background: linear-gradient(90deg, #43a999, #62c899);
+  /*background: linear-gradient(90deg, #43a999, #62c899);*/
+  background: linear-gradient(90deg, #01AAC1, #00DBE7);
 }
 .pin-top {
   position: relative;
