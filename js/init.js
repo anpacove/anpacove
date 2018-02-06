@@ -3,6 +3,10 @@
 
     $('.parallax').parallax();
 
+    $('.modal').modal();
+
+     $('.slider').slider();
+
     // Pushpin Demo Init
     if ($('.pushpin-demo-nav').length) {
       $('.pushpin-demo-nav').each(function () {
