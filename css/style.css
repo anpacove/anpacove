@@ -70,6 +70,9 @@ nav ul li a.active {
 .subtitle{
   color: #99ecd0;
 }
+.mainTitle{
+  color: #128494;
+}
 
 .icon-circle{
   right: auto !important;
