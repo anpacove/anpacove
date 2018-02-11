@@ -82,9 +82,8 @@ nav ul li a:hover, nav ul li a.active {
 .slider .slides li img {
   height: 100%;
   width: 100%;
-  background-position: center;
-  background-size:100% auto;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 p {
@@ -136,10 +135,19 @@ p {
   cursor: pointer;
 }
 
-.slides li img{
-  background-size: cover;
-  background-position: center top;
-  background-size: 100% auto;
-  min-height: 600px;
-  min-width: 600px;
+
+
+@media only screen and (max-width: 600px) {
+  .slides li img{
+    background-size: cover;
+    background-position: center top;
+    height: 600px !important;
+    width: 600px !important;
+  }
+
+  .parallax img{
+    
+    height: 1000px !important;
+    width: 1000px !important;
+  }
 }
