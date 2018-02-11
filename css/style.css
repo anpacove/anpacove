@@ -1,11 +1,13 @@
+.primary-color{
+  background-color: #01aac1;
+}
 .card .card-title {
   font-size: 18px !important;
 }
 .transparentBG {
   background-color: rgba(0, 0, 0, 0);
 }
-nav ul a,
-nav .brand-logo {
+nav ul a, nav .brand-logo {
   color: #ffffff;
   font-size: 16px;
 }
@@ -20,16 +22,12 @@ p {
   line-height: 0;
   color: #0E91A1;
 }
-
 .parallax-container .section {
   width: 100%;
   height: 100%;
   position: relative;
   padding: 110px 0;
 }
-
-
-
 .icon-block {
   padding: 0 15px;
 }
@@ -42,18 +40,16 @@ footer.page-footer {
 .footer-copyright {
   background-color: #333 !important;
 }
-html,
-body,
-.block {
+html, body, .block {
   height: 100%;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'BioRhyme', serif;
 }
-nav ul li a:hover,
-nav ul li a.active {
+nav ul li a:hover, nav ul li a.active {
   background-color: rgba(0, 0, 0, .1);
 }
 .menu-bg {
-  /*background: linear-gradient(90deg, #43a999, #62c899);*/
+ /*background: linear-gradient(90deg, #43a999, #62c899);
+ */
   background: linear-gradient(90deg, #01AAC1, #00DBE7);
 }
 .pin-top {
@@ -66,25 +62,76 @@ nav ul li a.active {
   font-family: 'Josefin Sans', sans-serif !important;
   font-size: 80px;
 }
-
-.subtitle{
-  color: #99ecd0;
-}
-.mainTitle{
-  color: #128494;
-}
-
 .icon-circle{
   right: auto !important;
   display: inline-block !important;
   vertical-align: top !important;
-  margin-top: 15px !important;
   text-align: center !important;
   line-height: 110px !important;
   width: 110px !important;
   height: 110px !important;
-  border: 2px solid white !important;
   border-radius: 50% !important;
   padding: 10px !important;
+  shape-outside: circle(50%);
+}
+.slider .slides {
+  background-color: transparent;
+  margin: 0;
+  height: 400px;
+}
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size:100% auto;
+  background-repeat: no-repeat;
+}
+
+p {
+  line-height: calc(1.5em + .2vw);
+  font-family: 'BioRhyme', serif;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -.25px;
   
+}
+.icon {
+  background-color: #2badd9;
+  shape-outside: inset(1% round 50%);
+  border-radius: 50%;
+  font-size: 5rem !important;
+  shape-margin:20px;
+  shape-outside: url(https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg);
+  shape-margin: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.slider.fullscreen{
+  position: relative;
+}
+.header-color{
+  background: #00d5e3;
+}
+
+
+.z-depth-5 p{
+  padding: 20px;
+  background-color:rgba(0, 213, 227, 0.3);
+  cursor: pointer;
+}
+
+
+.z-depth-5:hover{
+  transform: scale(1.05);
+}
+
+.z-depth-5 p:hover{
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+.z-depth-4 h4{
+  padding: 0px;
+  background-color:rgba(0, 213, 227, 0.5);
+  cursor: pointer;
 }
