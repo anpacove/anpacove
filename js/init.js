@@ -3,6 +3,7 @@
 
     $('#orientancion').css('height', parseFloat($('#apoyo').css('height')));
     $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
+    $('#psicoterapeuta').css('height', parseFloat($('#coach').css('height')));
     $('.parallax').parallax();
     $('.slider').slider();
 
@@ -16,6 +17,11 @@
       },
       {
         selector: '#PanelNecesidades', offset: 150, callback: function (el) {
+          Materialize.showStaggeredList($(el));
+        }
+      },
+      {
+        selector: '#PanelEnPractica', offset: 150, callback: function (el) {
           Materialize.showStaggeredList($(el));
         }
       }
