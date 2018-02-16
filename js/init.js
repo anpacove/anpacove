@@ -1,37 +1,27 @@
 (function ($) {
   $(function () {
 
-    $('#orientancion').css('height',  parseFloat($('#apoyo').css('height'))) ;
+    $('#orientancion').css('height', parseFloat($('#apoyo').css('height')));
     $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
-
-    
     $('.parallax').parallax();
+    $('.slider').slider();
 
-    $('.modal').modal();
 
-     $('.slider').slider();
+    var options = [
+      {
 
-    // Pushpin Demo Init
-    if ($('.pushpin-demo-nav').length) {
-      $('.pushpin-demo-nav').each(function () {
-        var $this = $(this);
-        var $target = $('#' + $(this).attr('data-target'));
-        $this.pushpin({
-          top: $target.offset().top,
-          bottom: $target.offset().top + $target.outerHeight() - $this.height()
-        });
-      });
-    }
-
-  }); 
-
-  
-  var options = [
-    {
-      selector: '#Precios', offset: 50, callback: function (el) {
-        $('.tap-target').tapTarget('open');
+        selector: '#PanelBienestar', offset: 150, callback: function (el) {
+          Materialize.showStaggeredList($(el));
+        }
+      },
+      {
+        selector: '#PanelNecesidades', offset: 150, callback: function (el) {
+          Materialize.showStaggeredList($(el));
+        }
       }
-    }
-  ];
-  Materialize.scrollFire(options);
+    ];
+    Materialize.scrollFire(options);
+
+  });
+
 })(jQuery); // end of jQuery name space

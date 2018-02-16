@@ -151,3 +151,13 @@ p {
     width: 1000px !important;
   }
 }
+
+
+.efecto-muestra{
+  opacity: 0;
+}
+
+.parallax-container {
+  height: "900px";
+  width: "900px";
+}
