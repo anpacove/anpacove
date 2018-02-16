@@ -1,6 +1,10 @@
 (function ($) {
   $(function () {
 
+    $('#orientancion').css('height',  parseFloat($('#apoyo').css('height'))) ;
+    $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
+
+    
     $('.parallax').parallax();
 
     $('.modal').modal();

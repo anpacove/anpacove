@@ -40,7 +40,7 @@ footer.page-footer {
 .footer-copyright {
   background-color: #333 !important;
 }
-html, body, .block {
+html, body, .block, p, h1, h2, h3, h4, h5 {
   height: 100%;
   font-family: 'BioRhyme', serif;
 }
