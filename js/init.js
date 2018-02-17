@@ -26,7 +26,12 @@
         selector: '#PanelEnPractica', offset: 150, callback: function (el) {
           Materialize.showStaggeredList($(el));
         }
-      }
+      },
+      {
+        selector: '#PanelPerfil', offset: 150, callback: function (el) {
+          Materialize.showStaggeredList($(el));
+        }
+      },
     ];
     Materialize.scrollFire(options);
 
