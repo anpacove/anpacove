@@ -4,6 +4,8 @@
     $('#orientancion').css('height', parseFloat($('#apoyo').css('height')));
     $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
     $('#psicoterapeuta').css('height', parseFloat($('#coach').css('height')));
+    $('#PerfilEstudios').css('height', parseFloat($('#PerfilDescripcion').css('height')));
+    $('#PerfilFinal').css('height', parseFloat($('#PerfilProfesional').css('height')));
     $('.parallax').parallax();
     $('.slider').slider();
 
