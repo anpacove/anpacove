@@ -107,16 +107,24 @@ p {
   background-color: #cdbfa4;
 }
 
-.icon {
+.icon-medium {
+  shape-outside: inset(2% round 50%);
+  border-radius: 60%;
+  font-size: 3rem !important;
+  shape-margin: 15px;
+  shape-margin: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 
-  shape-outside: inset(1% round 50%);
-  border-radius: 50%;
-  font-size: 5rem !important;
-  shape-margin:20px;
-  shape-outside: url(https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg);
-  shape-margin: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+.icon {
+  shape-outside: inset(2% round 50%);
+  border-radius: 60%;
+  font-size: 4rem !important;
+  shape-margin: 15px;
+  shape-margin: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 .slider.fullscreen{
   position: relative;
@@ -126,12 +134,13 @@ p {
 }
 
 
-.z-depth-5 p {
+.z-depth-5 p,.z-depth-5 span {
   padding: 20px;
   margin: 0;
   background-color:rgba(0, 213, 227, 0.3);
   cursor: pointer;
 }
+
 
 .z-depth-5 h5, .z-depth-4 h4  {
   padding: 20px;
@@ -142,6 +151,11 @@ p {
 
 
 .z-depth-5:hover {
+  transform: scale(1.05);
+}
+
+
+.col:hover {
   transform: scale(1.05);
 }
 
@@ -269,6 +283,9 @@ p {
 
 .slides h3{
   font-family: 'Nunito', sans-serif;
-
-
 }
+
+.psicoach-text-color, .psicoach-text-color span{
+  color: rgba(0, 213, 227, 1);
+}
+
