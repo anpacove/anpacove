@@ -42,7 +42,7 @@ footer.page-footer {
 }
 html, body, .block, p, h1, h2, h3, h4, h5 {
   height: 100%;
-  font-family: 'BioRhyme', serif;
+  font-family: 'Nunito', sans-serif;
 }
 nav ul li a:hover, nav ul li a.active {
   background-color: rgba(0, 0, 0, .1);
@@ -59,7 +59,6 @@ nav ul li a:hover, nav ul li a.active {
   position: relative;
 }
 .title {
-  font-family: 'Josefin Sans', sans-serif !important;
   font-size: 80px;
 }
 .icon-circle{
@@ -88,7 +87,7 @@ nav ul li a:hover, nav ul li a.active {
 
 p {
   line-height: calc(1.5em + .2vw);
-  font-family: 'BioRhyme', serif;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   font-size: 18px;
   letter-spacing: -.25px;
@@ -127,28 +126,28 @@ p {
 }
 
 
-.z-depth-5 p{
+.z-depth-5 p {
   padding: 20px;
+  margin: 0;
   background-color:rgba(0, 213, 227, 0.3);
   cursor: pointer;
 }
 
+.z-depth-5 h5, .z-depth-4 h4  {
+  padding: 20px;
+  margin: 0;
+  background-color:rgba(0, 213, 227, 1);
+  cursor: pointer;
+}
 
-.z-depth-5:hover{
+
+.z-depth-5:hover {
   transform: scale(1.05);
 }
 
 .z-depth-5 p:hover{
   background-color:rgba(0, 0, 0, 0.5);
 }
-
-
-.z-depth-4 h4{
-  padding: 0px;
-  background-color:rgba(0, 213, 227, 0.5);
-  cursor: pointer;
-}
-
 
 
 @media only screen and (max-width: 600px) {
@@ -266,4 +265,10 @@ p {
   .timeline .timeline-badge {
     left: 0;
   }
+}
+
+.slides h3{
+  font-family: 'Nunito', sans-serif;
+
+
 }

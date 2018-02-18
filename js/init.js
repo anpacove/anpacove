@@ -29,14 +29,17 @@
     ];
     Materialize.scrollFire(options);
 
+    $('.parallax').parallax();
+    $('.slider').slider();
+
     $('#orientancion').css('height', parseFloat($('#apoyo').css('height')));
     $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
     $('#psicoterapeuta').css('height', parseFloat($('#coach').css('height')));
-    $('#PerfilEstudios').css('height', parseFloat($('#PerfilDescripcion').css('height')));
+    $('#PerfilDescripcion').css('height', parseFloat($('#PerfilEstudios').css('height')));
     $('#PerfilFinal').css('height', parseFloat($('#PerfilProfesional').css('height')));
-    $('.parallax').parallax();
-    $('.slider').slider();
+
 
   });
 
 })(jQuery); // end of jQuery name space
+
