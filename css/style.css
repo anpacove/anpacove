@@ -107,6 +107,10 @@ p {
   background-color: #cdbfa4;
 }
 
+.tarifas-color{
+  background-color: #223564;
+}
+
 .icon-medium {
   shape-outside: inset(2% round 50%);
   border-radius: 60%;

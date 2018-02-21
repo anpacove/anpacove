@@ -26,11 +26,17 @@
           Materialize.showStaggeredList($(el));
         }
       },
+      {
+        selector: '#PanelTarifas', offset: 150, callback: function (el) {
+          Materialize.showStaggeredList($(el));
+        }
+      },
     ];
     Materialize.scrollFire(options);
 
     $('.parallax').parallax();
     $('.slider').slider();
+    $('.modal').modal();
 
     $('#orientancion').css('height', parseFloat($('#apoyo').css('height')));
     $('#relajacion').css('height', parseFloat($('#eficacia').css('height')));
